@@ -8,6 +8,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: black;
+  min-width: 390px;
 }
 /* *********** */
 /* Hero image */
@@ -408,5 +409,10 @@ list-style: none;
   }
   #everywhere-vdo {
     width: 250px;
+  }
+}
+@media (max-width: 420px) {
+  .hero-img{
+    height: 550px;
   }
 }
