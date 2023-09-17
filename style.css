@@ -10,6 +10,8 @@ body {
   background-color: black;
   min-width: 390px;
 }
+/* ============================= HOME PAGE ============================ */
+
 /* *********** */
 /* Hero image */
 /* *********** */
@@ -53,7 +55,7 @@ body {
   margin-left: 30px;
   transition: 0.2s;
 }
-.small-btn:hover{
+.small-btn:hover {
   background-color: #c0050f;
   cursor: pointer;
 }
@@ -127,7 +129,7 @@ body {
   margin-left: 20px;
   transition: 0.2s;
 }
-.large-btn:hover{
+.large-btn:hover {
   cursor: pointer;
   background-color: #c0050f;
 }
@@ -212,48 +214,25 @@ body {
   align-items: center;
   padding: 50px 10px;
 }
-.option-div{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px 0;
+.option-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
 }
-
-/* .option-box{
-    cursor: pointer;
-    background-color: rgba(87, 86, 86, 0.26);
-    width: 75%;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    color: white;
-    margin: 5px 0;
-    transition: 0.4s;
-} */
-/* .option-box:hover{
-  background-color: rgba(87, 86, 86, 0.418);
-} */
-/* .option-box h2{
-    font-weight: 400;
-} */
-/* .option-box i{
-    font-size: 30px;
-} */
-.accordion{
+.accordion {
   color: white;
   margin: 50px;
   width: 75%;
 }
-.accordion li{
+.accordion li {
   list-style: none;
   width: 100%;
   padding: 5px;
 }
-.accordion li label{
+.accordion li label {
   display: flex;
   align-items: center;
   padding: 20px;
@@ -264,18 +243,18 @@ body {
   cursor: pointer;
   position: relative;
 }
-label::after{
-  content: '+';
+label::after {
+  content: "+";
   font-weight: 500;
   font-size: 34px;
   position: absolute;
   right: 20px;
   transition: transform 0.1s;
 }
-input[type='radio']{
+input[type="radio"] {
   display: none;
 }
-.accordion .accordion-content{
+.accordion .accordion-content {
   color: white;
   background: #303030;
   font-size: 23px;
@@ -287,47 +266,48 @@ input[type='radio']{
   transition: max-height 0.5s, padding 0.5s;
 }
 
-.accordion input[type='radio']:checked + label + .accordion-content{
+.accordion input[type="radio"]:checked + label + .accordion-content {
   max-height: 600px;
   padding: 30px 20px;
 }
-.accordion input[type='radio']:checked + label::after{
+.accordion input[type="radio"]:checked + label::after {
   transform: rotate(45deg);
-} 
+}
 
 /* ---- Footer ---- */
-footer{
+footer {
   border-top: 7px solid rgb(56, 53, 53);
   display: flex;
   justify-content: center;
   padding: 60px 40px;
 }
-.footer-div{
+.footer-div {
   width: 80%;
 }
-.footer-div p, .footer-div a{
-color: #FFFFFFB3;
-font-size: 16px;
+.footer-div p,
+.footer-div a {
+  color: #ffffffb3;
+  font-size: 16px;
 }
-.footer-option{
+.footer-option {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
-.footer-option div{
+.footer-option div {
   display: flex;
   justify-content: space-between;
   width: 50%;
 }
-.footer-option li a{
+.footer-option li a {
   font-size: 14px;
 }
-.footer-option li{
+.footer-option li {
   margin: 10px 0;
 }
-footer ul{
-list-style: none;
+footer ul {
+  list-style: none;
 }
-.footer-div p:last-of-type{
+.footer-div p:last-of-type {
   margin-top: 20px;
 }
 
@@ -342,13 +322,13 @@ list-style: none;
   .section-box {
     width: 95%;
   }
-  .option{
+  .option {
     padding: 50px 40px;
   }
-  .accordion{
+  .accordion {
     width: 100%;
   }
-  .footer-div{
+  .footer-div {
     width: 100%;
   }
 }
@@ -410,7 +390,7 @@ list-style: none;
   #everywhere-vdo {
     width: 55%;
   }
-  .footer-option div{
+  .footer-option div {
     display: block;
   }
 }
@@ -418,15 +398,15 @@ list-style: none;
   #everywhere-vdo {
     width: 40vw;
   }
-  .accordion li label, .accordion .accordion-content{
+  .accordion li label,
+  .accordion .accordion-content {
     font-weight: 400;
     font-size: 16px;
-}
-  label::after{
+  }
+  label::after {
     font-weight: 400;
     font-size: 25px;
-}
-
+  }
 }
 
 @media (max-width: 670px) {
@@ -472,7 +452,7 @@ list-style: none;
   }
 }
 @media (max-width: 420px) {
-  .hero-img{
+  .hero-img {
     height: 550px;
   }
 }
