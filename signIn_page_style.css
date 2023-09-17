@@ -1,166 +1,159 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: "Nunito Sans", sans-serif;
-    /* font-family: "Open Sans", sans-serif; */
-  }
-  body {
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    min-width: 390px;
-  }
-.hero-img{
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.603),
-        rgba(0, 0, 0, 0.384),
-        rgba(0, 0, 0, 0.603)
-      ),url(images/IN-en-20230904-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
-background-size: cover;
-height: 1100px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
 }
-.header{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  min-width: 390px;
 }
-.nav-bar{
-    height: 60px;
-    width: 100%;
-    margin-bottom: 20px; 
+.hero-img {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.603),
+      rgba(0, 0, 0, 0.384),
+      rgba(0, 0, 0, 0.603)
+    ),
+    url(images/IN-en-20230904-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+  background-size: cover;
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
-.logo{
-    cursor: pointer;
-    height: 100%;
-    background-image: url(images/netflix-logo-removebg-preview.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 2px 35px;
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-bar {
+  height: 60px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.logo {
+  cursor: pointer;
+  height: 100%;
+  background-image: url(images/netflix-logo-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 2px 0 2px 35px;
 }
 
 /* Form */
-.form-bg{
-    background-color: #0072eb50;
-    /* height: 650px; */
-    height: 100%;
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: space-between;
+.signin-form {
+  background-color: #000000bf;
+  height: 650px;
+  width: 450px;
+  border-radius: 5px;
 }
-.signin-form{
-    background-color: #000000BF;
-    height: 650px;
-    width: 450px;
-    border-radius: 5px;
+.box {
+  margin: 65px;
+  display: flex;
+  flex-direction: column;
 }
-.box{
-    margin: 65px;
-    display: flex;
-    flex-direction: column;
+.box h2 {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
-.box h2{
-    color: white;
-    font-size: 35px;
-    font-weight: 700;
-    margin-bottom: 15px;
+.box input {
+  color: white;
+  background-color: #333333;
+  height: 45px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-weight: 500;
 }
-.box input{
-    color: white;
-    background-color: #333333;
-    height: 45px;
-    margin: 5px 0;
-    border: none ;
-    border-radius: 4px;
-    padding: 0 20px;
-    font-size: 16px;
-    font-weight: 500;
+.box button {
+  height: 48px;
+  background-color: #e50914;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  margin: 30px 0 10px;
 }
-.box button{
-    height: 48px;
-    background-color: #E50914;
-    font-size: 16px;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-weight: 600;
-    margin: 30px 0 10px;
+.box span {
+  color: #b3b3b3;
+  font-size: 13px;
+  align-self: end;
 }
-.box span{
-    color: #B3B3B3;
-    font-size: 13px;
-    align-self: end;
+.form-footer {
+  margin-top: 80px;
+  color: #737373;
 }
-.form-footer{
-    margin-top: 80px;
-    color: #737373;
+.form-footer h3 {
+  font-size: 16px;
 }
-.form-footer h3{
-    font-size: 16px;
-}
-.form-footer h3 a{
-    color: white;
-    text-decoration: none;
-}
-.form-footer p{
-    margin-top: 12px;
-    font-size: 13px;
-}
-.form-footer p a{
-  color: #0071EB;
+.form-footer h3 a {
+  color: white;
   text-decoration: none;
 }
-.box span:hover, .form-footer h3 a:hover, .form-footer p a:hover, .footer-option li a:hover{
-    text-decoration: underline;
+.form-footer p {
+  margin-top: 12px;
+  font-size: 13px;
+}
+.form-footer p a {
+  color: #0071eb;
+  text-decoration: none;
+}
+.box span:hover,
+.form-footer h3 a:hover,
+.form-footer p a:hover,
+.footer-option li a:hover {
+  text-decoration: underline;
 }
 /* ---- Footer ---- */
 footer {
-    background-color: #000000BF;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .footer-div {
-    width: 80%;
-    margin: 60px 40px;
-  }
-  .footer-div p,
-  .footer-div a {
-    color: #ffffffb3;
-    font-size: 16px;
-  }
-  .footer-option {
-    display: flex;
-    justify-content: space-between;
-  }
-  .footer-option div {
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-  }
-  .footer-option li a {
-    font-size: 14px;
-    text-decoration: none;
-  }
-  .footer-option li {
-    margin: 10px 0;
-  }
-  footer ul {
-    list-style: none;
-  }
+  background-color: #000000bf;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer-div {
+  width: 80%;
+  margin: 60px 40px;
+}
+.footer-div p,
+.footer-div a {
+  color: #ffffffb3;
+  font-size: 16px;
+}
+.footer-option {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-option div {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.footer-option li a {
+  font-size: 14px;
+  text-decoration: none;
+}
+.footer-option li {
+  margin: 10px 0;
+}
+footer ul {
+  list-style: none;
+}
 
-  .small-select {
-    background-color: rgba(0, 0, 0, 0.37);
-    color: white;
-    font-size: 14px;
-    padding: 4px 16px;
-    border-radius: 4px;
-    min-width: 75px;
-    height: 32px;
-  }
+.small-select {
+  background-color: rgba(0, 0, 0, 0.37);
+  color: white;
+  font-size: 14px;
+  padding: 4px 16px;
+  border-radius: 4px;
+  min-width: 75px;
+  height: 32px;
+}
